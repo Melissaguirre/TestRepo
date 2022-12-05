@@ -1,0 +1,70 @@
+.container {
+	border : 5px;
+	display : grid;
+	grid-template-rows: 100px 100px 100px;
+	grid-auto-columns: 100px;
+	grid-auto-flow : column;
+	gap: 20px;
+}
+
+.item1 {
+	background-color: #5FA7BE;
+}
+
+.item2 {
+	background-color: #4D8EA3;
+}
+
+.item3 {
+	background-color: #3D788B;
+}
+
+.item4 {
+	background-color: #326A7C;
+}
+
+.item5 {
+	background-color: #265A6B;
+}
+
+.item6 {
+	background-color : #1A4350;
+}
+
+.item1 span {
+	background-color: #1A4350;
+	color: white;
+	font-size: 2rem;
+}
+
+.item2 span {
+        background-color: #265A6B;
+        color: white;
+        font-size: 2rem;
+}
+
+.item3 span {
+	background-color: #326A7C;
+	color: white;
+	font-size: 2rem;
+}
+
+.item4 span {
+	background-color: #3D788B;
+	color: white;
+	font-size: 2rem;
+}
+
+.item5 span {
+        background-color: #4D8EA3;
+        color: white;
+        font-size: 2rem;
+}
+
+.item6 span {
+        background-color: #5FA7BE;
+        color: white;
+        font-size: 2rem;
+}
+
+
